@@ -1,0 +1,15 @@
+.submitButton {
+  display: flex;
+  background: black;
+  color: white;
+  border: 1px solid white;
+  padding: 10px;
+  margin-left: 10px;
+  animation: riseUp 0.3s ease-in-out;
+  transition: background 0.3s, color 0.3s;
+}
+
+.submitButton:hover {
+  background: white; /* Change background to white on hover */
+  color: black; /* Change text to black on hover */
+}

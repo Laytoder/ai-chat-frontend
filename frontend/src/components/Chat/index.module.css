@@ -1,0 +1,10 @@
+.chat {
+  height: 80vh;
+  overflow: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.chat::-webkit-scrollbar {
+  display: none;
+}

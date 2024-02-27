@@ -1,0 +1,19 @@
+.submitButtonHidden {
+  opacity: 0;
+  animation: riseOut 0.3s ease-in-out; /* Apply the rise out animation */
+  transform: translateY(0);
+  pointer-events: none; /* Disable clicks on hidden button */
+}
+
+@keyframes riseOut {
+  from {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(
+      30px
+    ); /* Adjust the value as needed for the rise out effect */
+  }
+}
